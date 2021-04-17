@@ -1,3 +1,63 @@
 <resources>
     <string name="app_name">Course Guide</string>
+    <string-array name="lesson_titles">
+        <item>Grundlagen und Einführung</item>
+        <item>Einführung in die Android-Entwicklungsumgebung</item>
+        <item>User Interfaces</item>
+        <item>Menüs, Benachrichtungen und Einstellungen </item>
+        <item>Daten persistieren</item>
+        <item>Arbeiten im Hintergrund</item>
+        <item>Netzwerkprogrammierung</item>
+        <item>Interaktion mit anderen Apps</item>
+        <item>Umgang mit der Gerätevielfalt und verschiedenen Displaygrößen</item>
+        <item>Sicherheit</item>
+        <item>Monetarisierung</item>
+        <item>Markt für Apps und Nutzungsformen</item>
+        <item>Vorgehensmodelle für die mobile Softwareentwicklung</item>
+    </string-array>
+    <string-array name="date_of_stream">
+        <item>16. April 2021</item>
+        <item>23. April 2021</item>
+        <item>30. April 2021</item>
+        <item>7. Mai 2021</item>
+        <item>14. Mai 2021</item>
+        <item>21. Mai 2021</item>
+        <item>28. Mai 2021</item>
+        <item>4. Juni 2021</item>
+        <item>11. Juni 2021</item>
+        <item>18. Juni 2021</item>
+        <item>25. Juni 2021</item>
+        <item>2. Juli 2021</item>
+        <item>9. Juli 2021</item>
+        <item>16. Juli 2021</item>
+    </string-array>
+    <string-array name="tutorial_titles">
+        <item>Grundlagen und Installation von Android Studio </item>
+        <item>Choose Your Own Adventure</item>
+        <item>Lauf-App</item>
+        <item>ToDo-App</item>
+        <item>ToDo-App 2.0</item>
+        <item>Eieruhr</item>
+        <item>Bundesligatabelle</item>
+        <item>Kamera</item>
+        <item>tba</item>
+        <item>Notizbuch</item>
+        <item>Taschenrechner</item>
+        <item>Soundmachine</item>
+    </string-array>
+    <string-array name="date_of_first_tutorial">
+        <item>20. April 2021</item>
+        <item>27. April 2021</item>
+        <item>4. Mai 2021</item>
+        <item>11. Mai 2021</item>
+        <item>18. Mai 2021</item>
+        <item>25. Mai 2021</item>
+        <item>1. Juni 2021</item>
+        <item>8. Juni 2021</item>
+        <item>15. Juni 2021</item>
+        <item>22. Juni 2021</item>
+        <item>29. Juni 2021</item>
+        <item>6. Juli 2021</item>
+        <item>13. Juli 2021</item>
+    </string-array>
 </resources>
