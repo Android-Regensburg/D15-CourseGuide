@@ -14,9 +14,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="50dp"
-            android:layout_marginRight="10dp"
+            android:layout_margin="10dp"
             android:text="@string/class_title"
             android:textAlignment="center"
             android:textSize="36sp" />
@@ -51,15 +49,17 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:weightSum="7">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="5sp"
-                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:layout_weight="2"
+                android:width="0dp"
                 android:text="@string/date_of_stream_label"
-                android:textAlignment="textStart"
+                android:textAlignment="textEnd"
                 android:textStyle="bold" />
 
             <TextView
@@ -67,7 +67,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="5sp"
-                android:layout_weight="1"
+                android:layout_weight="5"
+                android:width="0dp"
                 android:textColor="@color/colorPrimary" />
 
         </LinearLayout>
@@ -76,15 +77,17 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:weightSum="7">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="5sp"
-                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:layout_weight="2"
+                android:width="0dp"
                 android:text="@string/date_of_tutorial_label"
-                android:textAlignment="textStart"
+                android:textAlignment="textEnd"
                 android:textStyle="bold" />
 
             <TextView
@@ -92,7 +95,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="5sp"
-                android:layout_weight="1"
+                android:layout_weight="5"
+                android:width="0dp"
                 android:textColor="@color/colorPrimary" />
 
         </LinearLayout>
@@ -101,15 +105,17 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:weightSum="7">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="5sp"
-                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:layout_weight="2"
+                android:width="0dp"
                 android:text="@string/tutorial_title_label"
-                android:textAlignment="textStart"
+                android:textAlignment="textEnd"
                 android:textStyle="bold" />
 
             <TextView
@@ -117,7 +123,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="5sp"
-                android:layout_weight="1"
+                android:layout_weight="5"
+                android:width="0dp"
                 android:textColor="@color/colorPrimary" />
 
         </LinearLayout>
