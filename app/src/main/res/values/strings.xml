@@ -60,4 +60,11 @@
         <item>6. Juli 2021</item>
         <item>13. Juli 2021</item>
     </string-array>
+    <string name="class_title">Mobile Apps für Android</string>
+    <string name="week_label">Woche</string>
+    <string name="tutorial_title_label">Übungsblatt</string>
+    <string name="date_of_stream_label">Stream</string>
+    <string name="date_of_tutorial_label">Erste Übung</string>
+    <string name="next_week_button">Weiter</string>
+    <string name="previous_week_button">Zurück</string>
 </resources>
